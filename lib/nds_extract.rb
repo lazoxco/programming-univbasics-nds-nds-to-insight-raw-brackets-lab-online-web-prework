@@ -18,5 +18,13 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  nil
+  
+  row_index = 0
+  
+  director_name_key = nds[row_index][:name]
+  
+  # pp nds
+  pp director_name_key
 end
+
+
